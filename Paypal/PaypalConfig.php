@@ -9,10 +9,10 @@
 class PaypalConfig
 {
     //paypal key
-    const PAYPAL_APP_ID = 'AS8pJGONgnnDB2Y3qQN8hiDkWtikc4hLbFNsa0wG1hsxXteItd2TlxOSEyp_z4MdlFpOA6M32qcW-MF9';
+    const PAYPAL_APP_ID = '';
 
     //paypal sceret
-    const PAYPAL_APP_SCERET = 'EO_Lf7EqJwJkPKWsVv6yeBeKNjxEVBb9ReGTVCMGws51FFGcy0QxH3dDoqDulGBRESJM3dJdQu_0slGi';
+    const PAYPAL_APP_SCERET = '';
 
     //paypal 付款确认回调地址
     const PAYPAL_CALLBACK_URL = 'http://localhost/php_demo/payDemo/index.php/Home/Paypal/process_payment_success';
