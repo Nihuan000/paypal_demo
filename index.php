@@ -28,9 +28,9 @@ define('APP_PATH','./Demo/');
 
 define('RUNTIME_PATH','./Demo/Runtime/');
 
-require '../../ThinkPHP/Library/Vendor/autoload.php';
+require '../ThinkPHP/Library/Vendor/autoload.php';
 
 // 引入ThinkPHP入口文件
-require '../../ThinkPHP/ThinkPHP.php';
+require '../ThinkPHP/ThinkPHP.php';
 
 // 亲^_^ 后面不需要任何代码了 就是如此简单

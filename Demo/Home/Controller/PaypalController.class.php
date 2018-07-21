@@ -15,13 +15,28 @@ class PaypalController
         $order = [
             'method' => 'paypal',
             'currency' => 'USD',
-            'total' => 20,
-            'order_desc' => 'paypal支付订单测试'
+            'total' => 0.01,
+            'order_desc' => '金币充值支付凭证'
         ];
         vendor("Paypal.PaymentClient");
         $paypal = new \PaymentClient();
         $paymentProcess = $paypal->create_paypal_payment($order);
-        exit;
+        if($paymentProcess['code'] == 1){
+            $approvalUrl = $paymentProcess['approvalUrl'];
+            echo json_encode([
+                'status' => 1,
+                'msg' => '付款地址获取成功',
+                'result' => [
+                    'approvalUrl' => $approvalUrl
+                ]
+            ]);
+        }else{
+            echo json_encode([
+                'status' => 0,
+                'msg' => '生成失败',
+                'result' => []
+            ]);
+        }
     }
 
     public function process_payment_success()

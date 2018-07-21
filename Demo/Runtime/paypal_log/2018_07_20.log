@@ -1,0 +1,69 @@
+[20-07-2018 21:14:55] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 21:15:22] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 21:15:46] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 21:15:58] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 21:16:58] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 21:18:47] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 21:26:48] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 21:27:04] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 21:27:09] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[20-07-2018 21:27:09] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"MALFORMED_REQUEST","message":"Incoming JSON request does not map to API request","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#MALFORMED_REQUEST","debug_id":"c09cf7f17f55e"}
+[20-07-2018 21:31:25] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 21:31:33] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 21:54:58] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 21:55:06] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[20-07-2018 21:55:06] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"MALFORMED_REQUEST","message":"Incoming JSON request does not map to API request","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#MALFORMED_REQUEST","debug_id":"993324bbbb536"}
+[20-07-2018 21:55:47] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 21:56:44] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 21:58:45] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 21:58:49] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 500
+[20-07-2018 21:58:49] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 500 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"INTERNAL_SERVICE_ERROR","message":"An internal service error has occurred","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"178af04425084"}
+[20-07-2018 22:01:51] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 22:05:36] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 22:05:38] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 22:05:48] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 22:05:51] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 500
+[20-07-2018 22:05:51] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 500 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"INTERNAL_SERVICE_ERROR","message":"An internal service error has occurred","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"673021bd319fd"}
+[20-07-2018 22:07:49] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 22:07:52] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 500
+[20-07-2018 22:07:52] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 500 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"INTERNAL_SERVICE_ERROR","message":"An internal service error has occurred","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"250dffefa4471"}
+[20-07-2018 22:09:00] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 22:09:07] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[20-07-2018 22:10:31] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 22:10:37] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[20-07-2018 22:11:54] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 22:12:03] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[20-07-2018 22:12:06] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 22:13:10] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[2018-07-20 22:13:10] 创建付款失败 responseCode: 28, responseData: , responseMsg: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received
+
+[20-07-2018 22:22:43] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[2018-07-20 22:22:43] 创建付款失败 responseCode: 28, responseData: , responseMsg: Operation timed out after 10046 milliseconds with 0 out of 0 bytes received
+
+[20-07-2018 22:25:35] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 22:25:37] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[2018-07-20 22:25:35] 创建付款成功 responseCode: 200, responseData: https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-1SX84150V8612645X, responseMsg: Payment ApprovalLink Created
+
+[20-07-2018 22:27:26] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 22:27:29] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[2018-07-20 22:27:26] 创建付款成功 responseCode: 200, responseData: https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-39A44622RU120825H, responseMsg: Payment ApprovalLink Created
+
+[20-07-2018 22:29:55] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[2018-07-20 22:29:55] 创建付款失败 responseCode: 28, responseData: , responseMsg: Operation timed out after 10069 milliseconds with 0 out of 0 bytes received
+
+[20-07-2018 22:31:31] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 22:31:41] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[2018-07-20 22:31:31] 创建付款成功 responseCode: 200, responseData: https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-62V56801JW8678213, responseMsg: Payment ApprovalLink Created
+
+[20-07-2018 22:34:17] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 22:34:20] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[2018-07-20 22:34:17] 创建付款成功 responseCode: 200, responseData: https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-52D39072HA874961D, responseMsg: Payment ApprovalLink Created
+
+[20-07-2018 22:43:17] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 22:43:19] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[2018-07-20 22:43:17] 创建付款成功 responseCode: 200, responseData: https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-2B447906VS3905436, responseMsg: Payment ApprovalLink Created
+
+[20-07-2018 23:18:44] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[20-07-2018 23:18:46] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[2018-07-20 23:18:44] 创建付款成功 responseCode: 200, responseData: https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-8ET004650C1463733, responseMsg: Payment ApprovalLink Created
+
