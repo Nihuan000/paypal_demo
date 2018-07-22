@@ -61,6 +61,7 @@ class PaypalController
 
         $paymentId = trim($_GET['paymentId']);
         $payerID = trim($_GET['PayerID']);
+        $order_num = trim($_GET['order_num']);
         if(!empty($paymentId) && !empty($payerID)){
             $paymentConf = [
                 'paymentId' => $paymentId,
@@ -70,7 +71,7 @@ class PaypalController
             $payment = new \PaymentClient();
             $paymentSucess = $payment->complate_paypal_payment($paymentConf);
             if($paymentSucess['code'] == 1){
-                //TODO 确认支付后订单状态修改/金币充值操作
+                //TODO 确认支付后根据$order_num修改订单状态/金币充值操作
                 echo "success";
                 return $paymentSucess['payment'];
             }else{
